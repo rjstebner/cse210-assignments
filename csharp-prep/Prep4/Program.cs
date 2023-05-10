@@ -50,7 +50,7 @@ class Program
 
         Console.WriteLine($"The smallest number is: {min}");
 
-        Console.WriteLine("The number in descending  or are: ")
+        Console.WriteLine("The number in descending  or are: ");
 
         numbers.Sort((a,b) =>b.CompareTo(a));
         foreach (int number in numbers) 
